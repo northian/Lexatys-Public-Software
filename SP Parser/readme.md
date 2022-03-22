@@ -65,7 +65,7 @@ based on what port you need to look at. They also need to be in brackets [  ].
 -- **Slope**: Gets the difference of the highest and lowest within a range of frequencies.  
 -- **FCROSS**: Gets the freq where the frequencies cross over.  
 - **dBc**: To discern if dBc is used at all in the test. You can use ["template, use, no"].  
--- **template** sets the dBc for all other tests that use it. You can set another template later down the line in tests with another template.  
+-- **template** sets the dBc for all other tests that use it. If you set another template it will replace the last one and will be used until another one is set.  
 -- **use** is simple, it uses the last stored template and must come after a template setting.  
 -- **no** is no. dBc is not used at all for that particular test.  
 
