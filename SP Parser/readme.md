@@ -56,8 +56,9 @@ Here is a helpful list of all the variables you can set.
 - **vals**: The number of values used in the limit. Can be either 1 or 2.  
 - **val1 and val2**: Depending on the vals section either val1 can be used solely or val1 and val2 are both used.  
 - **limit**: The limit for the test.  
-- **column**: The exact columns needed to search. Refer to the chart at the bottom of the page to see what columns to use. They also need to be in brackets [  ].  
-- **limitType**: What limit type to use for the test ["Min, Max, 1dB, Slope, FCROSS"] are all tests that can be used.  
+- **column**: The specific column(s) from the SP file that you want searched. The bottom of the document has a chart on which ones you want to pick
+based on what port you need to look at. They also need to be in brackets [  ].  
+- **limitType**: What limit type to use for the test. ["Min, Max, 1dB, Slope, FCROSS"] are all tests that can be used.  
 -- **Max**: Gets the lowest number (Mostly used for finding insertion loss).  
 -- **Min**: Gets the highest number (Mostly used for finding rejections).  
 -- **1dB**: Gets the freq where the insertion loss is 1 less than the middle freq insertion loss.  
