@@ -8,7 +8,7 @@ Here is an example of a simple template:
 
 ```yaml
 filter: 57000
-labels: [Insertion Loss]
+labels: [Insertion Loss, Rejection 1]
 limits:
     0:
         vals: 2
