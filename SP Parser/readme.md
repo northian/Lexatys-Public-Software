@@ -39,7 +39,7 @@ filter: 57000
 ## Labels
 
 Next is the labels section. You can input as many labels as you'd like. There is a catch though,
-the number of labels ***NEEDS*** to be the same total number of tests/limits. labels are seperated by a comma inbetween them. It also needs to be within brackets [  ].
+the number of labels ***NEEDS*** to be the same total number of tests/limits. Labels are seperated by a comma inbetween them. It also needs to be within brackets [  ].
 
 ```yaml
 labels: [Insertion Loss, Rejection 1]
@@ -47,9 +47,9 @@ labels: [Insertion Loss, Rejection 1]
 
 ## Limits
 
-Limits are the tests you want to run on the SP data. There are example templates at the bottom of the document to showcase the differnt types.  
+Limits are the tests you want to run on the SP data. There are example templates at the bottom of the document to showcase the different types.  
 Just as it was mentioned in the Labels section, labels and limits are connected. The number of labels and the number of limits must be the same. If either are off the data will be skewed and will not show accurate results.  
-***The tests must start with the number 0 and not 1.***
+***The tests must start with the number 0 and not 1.***  
 This section has the most variables, but all of them are required for the test to work.  
 Here is a helpful list of all the variables you can set.
 
