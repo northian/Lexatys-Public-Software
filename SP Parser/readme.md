@@ -39,8 +39,7 @@ filter: 57000
 ## Labels
 
 Next is the labels section. You can input as many labels as you'd like. There is a catch though,
-the number of labels ***NEEDS*** to be the same total number of tests/limits. To seperate the labels
-you need to have a comma inbetween them. It also needs to be within brackets [  ].
+the number of labels ***NEEDS*** to be the same total number of tests/limits. labels are seperated by a comma inbetween them. It also needs to be within brackets [  ].
 
 ```yaml
 labels: [Insertion Loss, Rejection 1]
@@ -105,7 +104,7 @@ This section will cover the columns used in the limits. The formatting should wo
     dBc: template
 ```
 
-### Min
+## Min
 
 ```yaml
 0:
@@ -118,7 +117,7 @@ This section will cover the columns used in the limits. The formatting should wo
     dBc: use
 ```
 
-### 1dB
+## 1dB
 
 ```yaml
 0:
@@ -130,7 +129,7 @@ This section will cover the columns used in the limits. The formatting should wo
     dBc: no
 ```
 
-### Slope
+## Slope
 
 ```yaml
 0:
@@ -143,7 +142,7 @@ This section will cover the columns used in the limits. The formatting should wo
     dBc: no
 ```
 
-### FCROSS
+## FCROSS
 
 ```yaml
 0:
