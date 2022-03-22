@@ -54,20 +54,20 @@ Just as it was mentioned in the Labels section, labels and limits are connected.
 This section has the most variables, but all of them are required for the test to work.  
 Here is a helpful list of all the variables you can set.
 
-- **vals**: The number of values used in the limit. Can be either 1 or 2.
-- **val1 and val2**: Depeneding on the vals section either val1 can be used solely or val1 and val2 are both used.
-- **limit**: The limit for the test.
-- **column**: The exact coulmns needed to search. Refer to the chart at the bottom of the page to see what columns to use. They also need to be in brackets [  ].
-- **limitType**: What limit type to use for the test ["Min, Max, 1dB, Slope, FCROSS"] are all tests that can be used.
--- **Max**: Gets the lowest number (Mostly used for finding insertion loss).
--- **Min**: Gets the highest number (Mostly used for finding rejections).
--- **1dB**: Gets the freq where the insertion loss is 1 less than the middle freq insertion loss.
--- **Slope**: Gets the differece of the highest and lowest within a range of frequences.
+- **vals**: The number of values used in the limit. Can be either 1 or 2.  
+- **val1 and val2**: Depeneding on the vals section either val1 can be used solely or val1 and val2 are both used.  
+- **limit**: The limit for the test.  
+- **column**: The exact coulmns needed to search. Refer to the chart at the bottom of the page to see what columns to use. They also need to be in brackets [  ].  
+- **limitType**: What limit type to use for the test ["Min, Max, 1dB, Slope, FCROSS"] are all tests that can be used.  
+-- **Max**: Gets the lowest number (Mostly used for finding insertion loss).  
+-- **Min**: Gets the highest number (Mostly used for finding rejections).  
+-- **1dB**: Gets the freq where the insertion loss is 1 less than the middle freq insertion loss.  
+-- **Slope**: Gets the differece of the highest and lowest within a range of frequences.  
 -- **FCROSS**: Gets the freq where 
-- **dBc**: To decern if dBc is used at all in the test. You can use ["template, use, no"].
--- **template** sets the dBc for all other tests that use it. You can set another template later down the line in tests with another template.
--- **use** is simple, it uses the last stored template and must come after a template setting.
--- **no** is no. dBc is not used at all for that particular test.
+- **dBc**: To decern if dBc is used at all in the test. You can use ["template, use, no"].  
+-- **template** sets the dBc for all other tests that use it. You can set another template later down the line in tests with another template.  
+-- **use** is simple, it uses the last stored template and must come after a template setting.  
+-- **no** is no. dBc is not used at all for that particular test.  
 
 ```yaml
 limits:
