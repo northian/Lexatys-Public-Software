@@ -144,6 +144,8 @@ This section will cover the columns used in the limits. The formatting should wo
 
 ## FCROSS
 
+The values do not matter for the FCROSS test, but they are still needed for the program to function correctly.
+
 ```yaml
 0:
     vals: 2
